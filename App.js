@@ -6,18 +6,6 @@ import SearchScreen from "./src/screens/SearchScreen";
 
 const Stack = createNativeStackNavigator();
 
-// const navigation = createNativeStackNavigator(
-//   {
-//     Search: SearchScreen,
-//   },
-//   {
-//     initialRouteName: "Search",
-//     defaultNavigationOptions: {
-//       title: "Business Search",
-//     },
-//   }
-// );
-
 const App = () => {
   return (
     <NavigationContainer>
